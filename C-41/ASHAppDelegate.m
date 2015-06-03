@@ -15,11 +15,14 @@
 
 // View Models
 #import "ASHMasterViewModel.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @implementation ASHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [BuddyBuildSDK setup:self];
+    
     // Override point for customization after application launch.
     
     // Setup window
@@ -64,6 +67,16 @@
 {
     // Saves changes in the application's managed object context before the application terminates.
     [[ASHCoreDataStack defaultStack] saveContext];
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    if ([BuddyBuildSDK handleOpenURL:url]) {
+        return YES;
+    }
+    return NO;
 }
 
 @end
