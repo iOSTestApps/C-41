@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		251BA020AC1444D3B79A4119 /* libPods-C-41.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE0365B9C0E4C89BD732392 /* libPods-C-41.a */; };
+		29AA371292AD19E6A7E22035 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA82F646BA002E2825A47D37 /* SystemConfiguration.framework */; };
+		34E2EAD653D95901DCD71D59 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED1472C7FDC1B5627531E56 /* CoreTelephony.framework */; };
+		590004C9607B95EF77EAF8B7 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2411853CC3788D5D12DF9B /* BuddyBuildSDK.framework */; };
 		5E5E69E7187638F0008E9EAE /* CoreDataHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E69E6187638F0008E9EAE /* CoreDataHelpers.m */; };
 		5E93AD3C1866695600795C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E93AD3B1866695600795C9E /* Foundation.framework */; };
 		5E93AD3E1866695600795C9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E93AD3D1866695600795C9E /* CoreGraphics.framework */; };
@@ -48,8 +51,10 @@
 		5EC0E8621870C2F200289440 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC0E8611870C2F200289440 /* QuartzCore.framework */; };
 		5EC0E8641870D80A00289440 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC0E8631870D80A00289440 /* AudioToolbox.framework */; };
 		5EC0E866187109D900289440 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5EC0E865187109D900289440 /* Settings.bundle */; };
+		B35BDB377D64CC4DB8FBF539 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170CB8CD414D3F88451C3983 /* AssetsLibrary.framework */; };
 		C02D7C61186814F9002E9D79 /* ASHCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C02D7C60186814F9002E9D79 /* ASHCoreDataStack.m */; };
 		D2216E6F86DC4AFEBEC94EB3 /* libPods-C-41Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4259052B52F436089AB732B /* libPods-C-41Tests.a */; };
+		E270001ED671299E671138D3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92326D55631F13BD65E97514 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +69,11 @@
 
 /* Begin PBXFileReference section */
 		0F1D441DE7757A4165BF2C87 /* Pods-C-41.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C-41.release.xcconfig"; path = "Pods/Target Support Files/Pods-C-41/Pods-C-41.release.xcconfig"; sourceTree = "<group>"; };
+		170CB8CD414D3F88451C3983 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		2DE51086DBE39C22D2E7C9ED /* Pods-C-41Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C-41Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-C-41Tests/Pods-C-41Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3CE0365B9C0E4C89BD732392 /* libPods-C-41.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-C-41.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED1472C7FDC1B5627531E56 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5B2411853CC3788D5D12DF9B /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		5E246D141879DD9E00C8BDED /* TestHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHelpers.h; sourceTree = "<group>"; };
 		5E5E69E6187638F0008E9EAE /* CoreDataHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelpers.m; sourceTree = "<group>"; };
 		5E5E69E818763906008E9EAE /* CoreDataHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataHelpers.h; sourceTree = "<group>"; };
@@ -122,6 +130,8 @@
 		5EC0E8631870D80A00289440 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		5EC0E865187109D900289440 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		75275B65E697FA99BC6C1116 /* Pods-C-41.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C-41.debug.xcconfig"; path = "Pods/Target Support Files/Pods-C-41/Pods-C-41.debug.xcconfig"; sourceTree = "<group>"; };
+		92326D55631F13BD65E97514 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		AA82F646BA002E2825A47D37 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C02D7C5F186814F9002E9D79 /* ASHCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHCoreDataStack.h; sourceTree = "<group>"; };
 		C02D7C60186814F9002E9D79 /* ASHCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHCoreDataStack.m; sourceTree = "<group>"; };
 		C82587B04DAB914CB76F0490 /* Pods-C-41Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C-41Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-C-41Tests/Pods-C-41Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +150,11 @@
 				5E93AD401866695600795C9E /* UIKit.framework in Frameworks */,
 				5E93AD3C1866695600795C9E /* Foundation.framework in Frameworks */,
 				251BA020AC1444D3B79A4119 /* libPods-C-41.a in Frameworks */,
+				590004C9607B95EF77EAF8B7 /* BuddyBuildSDK.framework in Frameworks */,
+				B35BDB377D64CC4DB8FBF539 /* AssetsLibrary.framework in Frameworks */,
+				E270001ED671299E671138D3 /* CoreText.framework in Frameworks */,
+				34E2EAD653D95901DCD71D59 /* CoreTelephony.framework in Frameworks */,
+				29AA371292AD19E6A7E22035 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +227,11 @@
 				5E93AD621866695600795C9E /* XCTest.framework */,
 				3CE0365B9C0E4C89BD732392 /* libPods-C-41.a */,
 				E4259052B52F436089AB732B /* libPods-C-41Tests.a */,
+				5B2411853CC3788D5D12DF9B /* BuddyBuildSDK.framework */,
+				170CB8CD414D3F88451C3983 /* AssetsLibrary.framework */,
+				92326D55631F13BD65E97514 /* CoreText.framework */,
+				4ED1472C7FDC1B5627531E56 /* CoreTelephony.framework */,
+				AA82F646BA002E2825A47D37 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -671,6 +691,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "C-41/C-41-Prefix.pch";
 				INFOPLIST_FILE = "C-41/C-41-Info.plist";
@@ -689,6 +713,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "C-41/C-41-Prefix.pch";
 				INFOPLIST_FILE = "C-41/C-41-Info.plist";
